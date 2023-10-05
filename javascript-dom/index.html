@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dom Selection</title>
+    <style>
+      * {
+        border: 2px solid #dedede;
+        padding: 15px;
+        margin: 15px;
+      }
+      html {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        max-width: 600px;
+        margin: 30px auto;
+        font-family: sans-serif;
+        color: #333;
+      }
+      .biru-muda {
+        background-color: lightblue;
+      }
+      .button-container {
+        position: relative;
+        right: -50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="judul">Hello World</h1>
+    <div id="container">
+      <section id="a">
+        <p class="p1">paragraf 1</p>
+        <a href="http://instagram.com/sandhikagalih">Instagram Sandhika Galih</a>
+        <p class="p2">paragraf 2</p>
+        <p class="p3">paragraf 3</p>
+      </section>
+      <section id="b">
+        <p style="cursor: pointer">paragraf 4</p>
+        <input id="input-box" type="text" placeholder="input something" />
+        <button onclick="addTask()">Add</button>
+        <div style="display: flex">
+          <button onclick="addMinus()" class="minus">-</button>
+          <p style="cursor: pointer" class="counter">0</p>
+          <button onclick="addPlus()" class="plus">+</button>
+        </div>
+        <ul id="list-container">
+          <li style="flex: content">item 1</li>
+          <li>item 2</li>
+          <li>item 3</li>
+        </ul>
+      </section>
+    </div>
+
+    <script src="../javascript-dom/eventHandler.js"></script>
+  </body>
+</html>

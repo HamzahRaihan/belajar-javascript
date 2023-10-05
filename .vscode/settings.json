@@ -1,0 +1,10 @@
+{
+  "workbench.editor.showTabs": true,
+  "workbench.editor.doubleClickTabToToggleEditorGroupSizes": true,
+  "workbench.editor.wrapTabs": false,
+  "workbench.editor.scrollToSwitchTabs": false,
+  "workbench.editor.highlightModifiedTabs": false,
+  "workbench.editor.pinnedTabSizing": "normal",
+  "workbench.editor.enablePreview": true,
+  "liveServer.settings.port": 5501
+}

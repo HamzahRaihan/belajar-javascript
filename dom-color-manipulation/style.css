@@ -1,0 +1,32 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  text-align: center !important;
+}
+
+.dark {
+  color: white;
+  background-color: black;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.box {
+  width: 25px;
+  height: 25px;
+  margin: 10px auto;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
